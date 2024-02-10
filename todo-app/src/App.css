@@ -1,0 +1,13 @@
+
+input{
+  width: 100%;
+}
+.items{
+  text-align: left;
+}
+.new-row{
+  margin: 20px;
+}
+.new-button{
+  min-width: 80px;
+}
