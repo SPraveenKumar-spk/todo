@@ -1,6 +1,11 @@
 import Image from "../assets/hero.jpg";
-
+import {useNavigate} from "react-router-dom";
 function Hero() {
+  const navigate = useNavigate();
+
+  const handleStart = () =>{
+    navigate("/createtodo")
+  }
   return (
     <div className="container p-5">
       <div className="row align-items-center">
@@ -23,6 +28,7 @@ function Hero() {
             <button 
               className="btn  rounded-5 p-3 fs-4 fw-semibold " 
               style={{ color: "#6f42c1", borderColor: "#6f42c1" }}
+              onClick={handleStart}
             >
               Get Started
             </button>

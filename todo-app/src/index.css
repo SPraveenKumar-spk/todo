@@ -277,3 +277,19 @@ footer .wave#wave4 {
 
 
 
+
+.search-container{
+  position: relative;
+  display: inline-block;
+}
+.search{
+  padding-left: 30px;
+  width: 100%;
+}
+.search-icon{
+  position: absolute;
+  left: 85%;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #999;
+}

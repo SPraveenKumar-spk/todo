@@ -1,12 +1,15 @@
-import Navbar from "./Components/Navbar";
-import Hero from "./Components/Hero";
-import Footer from "./Components/Footer";
+import {BrowserRouter,Routes,Route} from "react-router-dom";
+import Home from "./Components/Home";
+import Todo from "./Components/Todo";
 function App(){
   return(
   <>
-  <Navbar />
-  <Hero />
-  <Footer />
+ <BrowserRouter>
+ <Routes>
+ <Route path="/" element = {<Home />} />
+ <Route path="/createtodo" element = {<Todo />} />
+ </Routes>
+ </BrowserRouter>
   </>
   )
 }
