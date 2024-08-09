@@ -189,90 +189,9 @@ footer .wave#wave4 {
   }
 }
 
-.visible {
-  opacity: 1;
-  transition: opacity 1s ease-in-out;
-}
-
-.invisible {
-  opacity: 0;
-  transition: opacity 1s ease-in-out;
-}
-
-@keyframes slideInFromTop {
-  0% {
-    transform: translate(-100%,-100%);
-    opacity: 0;
-  }
-  100% {
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
-
-@keyframes slideInFromBottom {
-  0% {
-    transform: translate(100%,100%);
-    opacity: 0;
-  }
-  100% {
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
-
-@keyframes slideInFromLeft {
-  0% {
-    transform: translate(-100%,-100%);
-    opacity: 0;
-  }
-  100% {
-    transform: translateX(0);
-    opacity: 1;
-  }
-}
-
-@keyframes slideInFromRight {
-  0% {
-    transform: translate(100%,100%);
-    opacity: 0;
-  }
-  100% {
-    transform: translateX(0);
-    opacity: 1;
-  }
-}
-
-
-.slideInFromTop {
-  animation: slideInFromTop 2s ease-out forwards;
-  animation-fill-mode: forwards;
-}
-
-.slideInFromBottom {
-  animation: slideInFromBottom 2s ease-out forwards;
-  animation-fill-mode: forwards;
-}
-
-.slideInFromLeft {
-  animation: slideInFromLeft 2s ease-out forwards;
-  animation-fill-mode: forwards;
-}
-
-.slideInFromRight {
-  animation: slideInFromRight 2s ease-out forwards;
-  animation-fill-mode: forwards;
-}
 
 
 
-.carousel-indicators .active {
-  background-color: #ff5733; 
-}
-
-.carousel-indicators button {
-  background-color: red; 
-}
 
 
 
